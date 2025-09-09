@@ -96,7 +96,7 @@ const displayTreesByCategory = (trees) => {
           <p class="text-black font-bold text-lg">$${tree.price}</p>
         </div>
       </div>
-      <button class="add-to-cart w-full bg-[#15803D] text-white font-semibold py-3 px-4 rounded-xl hover:bg-[#166534] transition-colors duration-300 mt-auto">
+      <button class="add-to-cart w-full bg-[#15803D] hover:bg-green-800 cursor-pointer text-white font-semibold py-3 px-4 rounded-xl hover:bg-[#166534] transition-colors duration-300 mt-auto">
         Add to Cart
       </button>
     `;
@@ -195,7 +195,7 @@ function renderCart() {
 
   <!-- Right side (Delete Button) -->
   <button data-id="${item.id}"
-    class="delete-item bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-lg shadow hover:bg-red-600 transition">
+    class="delete-item bg-red-500 hover:bg-red-600 cursor-pointer text-white text-sm font-bold px-3 py-1 rounded-lg shadow hover:bg-red-600 transition">
     ✕
   </button>
     `;

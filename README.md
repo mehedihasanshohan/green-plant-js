@@ -42,9 +42,9 @@ console.log("filter (even numbers):", evenNumbers);
 // Output: [2, 4]
 
 
-### Arrow Functions in ES6
+### 3) Arrow Functions in ES6
 
-Arrow functions are a **shorter way to write functions** in JavaScript.
+Arrow functions are a shorter way to write functions in JavaScript.
 
 **Example:**
 
@@ -60,9 +60,9 @@ const add = (a, b) => a + b;
 console.log(add(2, 3)); // 5
 
 
-### Destructuring Assignment in ES6
+### 4) Destructuring Assignment in ES6
 
-Destructuring allows you to **extract values from arrays or objects into separate variables** easily.
+Destructuring allows to extract values from arrays or objects into separate variables easily.
 
 **Array Destructuring:**
 
@@ -73,19 +73,19 @@ console.log(a, b); // 1 2
 
 
 
-### Template Literals in ES6
+### 5) Template Literals in ES6
 
-Template literals are **strings written with backticks (`)** that let you **easily include variables and expressions**.
+Template literals are strings written with backticks (`) that easily include variables and expressions.
 
 **Example:**
 
 ```javascript
-const name = "Bob";
+const name = "Shohan";
 const age = 30;
 
 // Using template literal
 const message = `My name is ${name} and I am ${age} years old.`;
-console.log(message); // My name is Bob and I am 30 years old.
+console.log(message); // My name is Shohan and I am 30 years old.
 
 // Old way using string concatenation
 const oldMessage = "My name is " + name + " and I am " + age + " years old.";
