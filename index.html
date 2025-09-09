@@ -61,5 +61,38 @@
     </button>
   </div>
 </header>
+
+<!-- render trees section -->
+<section id="gallery" class="bg-[#CFF0DC] py-16 px-4">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-12 text-black opacity-80">
+      Choose Your Trees
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-4">
+      <div class=" p-4 bg-[#CFF0DC]">
+        <h3 class="text-xl font-semibold mb-4">Categories</h3>
+        <ul id="Categories-container">
+         <!-- category will dynamically render here -->
+
+        </ul>
+      </div>
+
+      <div id="trees-container" class="lg:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- trees card will dynamically render here -->
+      </div>
+
+      <div class="bg-white p-2 rounded-lg shadow-md h-[478px]">
+        <h3 class="text-xl font-bold mb-4"> My Cart</h3>
+        <div id="cart-container" class="space-y-2 overflow-y-auto h-[320px]">
+         <!-- cart items-->
+        </div>
+        <div id="cart-total" class="mt-4 font-bold text-lg text-green-700">
+        Total: $0
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 </body>
 </html>
